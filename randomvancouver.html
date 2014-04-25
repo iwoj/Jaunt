@@ -1,0 +1,25 @@
+<html>
+<head>
+<script>
+
+var lat = random(49.3208494, 49.1881387);
+var lon = random(-123.2880123, -122.8656566);
+
+document.location.href = "http://maps.google.com/maps?&z=10&q="+lat+"+"+lon+"&ll="+lat+"+"+lon;
+
+/**
+  * Returns a random number between min and max
+  */
+function random (min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+</script>
+</head>
+<body>
+
+<h1>RANDOM VANCOUVER!</h1>
+
+</body>
+</html>
+
